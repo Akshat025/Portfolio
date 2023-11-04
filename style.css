@@ -208,7 +208,7 @@ nav ul li a:hover::after{
     transform: translateY(-5px);
 
 }
-.btn{
+.btn {
     display: block;
     margin: 50px auto;
     width: fit-content;
@@ -216,15 +216,26 @@ nav ul li a:hover::after{
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
-    color: white;
+    color: #fff;
+    background: #20024f; /* Background color for the buttons */
     transition: background 0.5s;
 }
-.btn:hover{
-    background: #d6c4f4;
+
+.btn:hover {
+    background: #f9ad0a; /* Background color on hover */
 }
-.btn.btn2{
+
+.btn.btn2 {
     display: inline-block;
-    background: #d6c4f4;
+    background: #20024f; /* Background color for the secondary button */
+    color: #fff;
+}
+
+.btn.btn2:hover {
+    background: #f9ad0a; /* Background color on hover for secondary button */
+    color: #080808; /* Text color on hover for secondary button */
+}
+
 }
 /* ------scroll bar------ */
 * {
